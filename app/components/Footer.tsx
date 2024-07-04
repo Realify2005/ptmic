@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-white text-sm">
-            Copyright © 2021 PT. Megah Inti Cemerlang All Right Reserved.
+            Copyright © 2024 PT. Megah Inti Cemerlang All Right Reserved.
         </div>
         </div>
     </footer>

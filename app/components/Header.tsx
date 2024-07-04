@@ -25,7 +25,7 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
-  { name: 'Profil Perusahaan', description: 'Sejarah perusahaan kita', href: '#', icon: ChartPieIcon },
+  { name: 'Profil Perusahaan', description: 'Sejarah perusahaan kita', href: '/profil-perusahaan', icon: ChartPieIcon },
   { name: 'Visi & Misi', description: 'Visi dan misi perusahaan', href: '#', icon: CursorArrowRaysIcon },
 ]
 
@@ -61,7 +61,7 @@ export default function Header() {
             </button>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
               Home
             </a>
 
@@ -152,7 +152,7 @@ export default function Header() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   <a
-                    href="#"
+                    href="/"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Home
@@ -201,7 +201,7 @@ export default function Header() {
                     {({ open }) => (
                       <>
                         <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                          Company
+                          Produk
                           <ChevronDownIcon
                             className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                             aria-hidden="true"
