@@ -26,7 +26,7 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 
 const products = [
   { name: 'Profil Perusahaan', description: 'Sejarah perusahaan kita', href: '/profil-perusahaan', icon: ChartPieIcon },
-  { name: 'Visi & Misi', description: 'Visi dan misi perusahaan', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'Visi & Misi', description: 'Visi dan misi perusahaan', href: '/visi-misi', icon: CursorArrowRaysIcon },
 ]
 
 const company = [
@@ -45,7 +45,7 @@ export default function Header() {
       <header className="bg-white sticky top-0 z-50">
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image className="h-8 w-auto" src="/ptmic_logo.png" alt="" width={32} height={32} />
             </a>
@@ -97,10 +97,10 @@ export default function Header() {
               </PopoverPanel>
             </Popover>
 
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/kenapa-harus-kami" className="text-sm font-semibold leading-6 text-gray-900">
               Kenapa Harus Kami?
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/galeri" className="text-sm font-semibold leading-6 text-gray-900">
               Galeri
             </a>
 
@@ -185,16 +185,16 @@ export default function Header() {
                   </Disclosure>
 
                   <a
-                    href="#"
+                    href="/kenapa-harus-kami"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Features
+                    Kenapa Harus Kami?
                   </a>
                   <a
-                    href="#"
+                    href="/galeri"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Marketplace
+                    Galeri
                   </a>
 
                   <Disclosure as="div" className="-mx-3">
