@@ -34,7 +34,7 @@ const company = [
   { name: 'Non Alkes', href: '/non-alkes' },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: (string | undefined | false | null)[]) {
   return classes.filter(Boolean).join(' ')
 }
 
