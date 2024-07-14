@@ -30,8 +30,8 @@ const products = [
 ]
 
 const company = [
-  { name: 'Alkes', href: '#' },
-  { name: 'Non Alkes', href: '#' },
+  { name: 'Alkes', href: '/alkes' },
+  { name: 'Non Alkes', href: '/non-alkes' },
 ]
 
 function classNames(...classes) {
