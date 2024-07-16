@@ -42,7 +42,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-      <header className="bg-white sticky top-0 z-50">
+      <header className="bg-white sticky top-0 z-50 shadow-md">
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -126,7 +126,7 @@ export default function Header() {
               </PopoverPanel>
             </Popover>
 
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="kontak-kami" className="text-sm font-semibold leading-6 text-gray-900">
               Kontak Kami
             </a>
           </PopoverGroup>
@@ -223,7 +223,7 @@ export default function Header() {
                     )}
                   </Disclosure>
                   <a
-                    href="#"
+                    href="kontak-kami"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Kontak Kami
